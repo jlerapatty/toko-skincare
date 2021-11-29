@@ -1,0 +1,205 @@
+/* CSS Reset */
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Global Style */
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    color: #66fcf1;
+}
+
+main {
+    margin-top: 78px;
+}
+
+section {
+    min-height: 100vh;
+}
+
+.section-title {
+    color: #66fcf1;
+    font-size: 28px;
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.wrapper {
+    display: flex;
+}
+
+
+/* Header */
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: inline-block;
+    width: inherit;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #0b0c10;
+}
+
+header h1 {
+    float: left;
+    color: #ffffff;
+}
+
+/* Main */
+nav {
+    float: right;
+}
+
+nav ul {
+    padding-top: 9.5px;
+    padding-bottom: 9.5px;
+}
+
+nav li {
+    display: inline;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* Product Card */
+.wrapper-product {
+    height: 420px;
+    width: 654px;
+    margin: 50px auto;
+  }
+  
+  .product-img {
+    float: left;
+    height: 420px;
+    width: 327px;
+  }
+  
+  .product-img img {
+    border-radius: 7px 0 0 7px;
+  }
+  
+ 
+
+  /* Tabel harga */
+
+.harga {
+    background-color: #631623;
+}
+
+.harga .wrapper {
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.harga-title{
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.tabel-harga{
+    color: white;
+    border: 1px solid #c45454;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabel-harga td, .tabel-harga th{
+    border: 1px solid white;
+    padding: 15px 20px; 
+    background-color: rgb(145, 49, 49);
+}
+
+.tabel-harga th{
+    background: #883131;
+    color: #fff;
+}
+
+.tabel-harga td{
+    text-align: center;
+}
+  /* Kontak */
+  .kontak {
+    min-height: 80vh;
+    background: #0b0c10;
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-position: top;
+    color: #fff;
+}
+
+.kontak .wrapper {
+    align-items: flex-start;
+}
+
+.kontak .section-title {
+    margin-bottom: 30px;
+}
+
+.kontak-box {
+    padding: 20px 50px;
+    background: #1f2833;
+    width: 350px;
+    margin: 0 auto;
+    text-align: right;
+    border-radius: 10px;
+}
+
+.kontak input, .kontak textarea {
+    width: 100%;
+    outline: none;
+    border: none;
+    margin-left: 10px;
+    font-family: sans-serif;
+}
+
+.kontak-name, .kontak-email, .kontak-pesan {
+    background: #fff;
+    color: #000;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.btn-kontak {
+    background: #66fcf1;
+    color: #1f2833;
+    padding: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+  /* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #1f2833;
+    font-size: 12px;
+    color: #fff;
+}
